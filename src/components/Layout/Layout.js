@@ -7,19 +7,31 @@ import styles from './Layout.module.scss';
 type Props = {
   children: ReactNode,
   title: string,
-  description?: string
+  description?: string,
+  author: {
+    name: string,
+  },
 };
 
-const Layout = ({ children, title, description }: Props) => (
+const Layout = ({
+  children, title, description, author,
+}: Props) => (
   <div className={styles.layout}>
-    <Helmet>
-      <html lang="en" />
-      <title>{title}</title>
-      <meta name="description" content={description} />
-      <meta property="og:site_name" content={title} />
-      <meta name="twitter:card" content="summary" />
-      <meta name="twitter:title" content={title} />
-    </Helmet>
+    <Helmet
+      htmlAttributes={{ lang: 'es' }}
+      title={title}
+      meta={[
+        { name: 'description', content: description },
+        { property: 'og:title', content: title },
+        { property: 'og:description', content: description },
+        { property: 'og:type', content: 'website' },
+        { name: 'twitter:card', content: 'summary' },
+        { name: 'twitter:creator', content: author },
+        { name: 'twitter:title', content: title },
+        { name: 'twitter:description', content: description },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
+      ]}
+    />
     {children}
   </div>
 );

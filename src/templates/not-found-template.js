@@ -6,10 +6,10 @@ import Page from '../components/Page';
 import { useSiteMetadata } from '../hooks';
 
 const NotFoundTemplate = () => {
-  const { title, description } = useSiteMetadata();
+  const { title, description, author } = useSiteMetadata();
 
   return (
-    <Layout title={`Not Found - ${title}`} description={description}>
+    <Layout title={`Not Found - ${title}`} description={description} author={author}>
       <Sidebar />
       <Page title="NOT FOUND">
         <p>You just hit a route that doesn&#39;t exist... the sadness.</p>

@@ -9,18 +9,18 @@ import type { MarkdownRemark } from '../types';
 
 type Props = {
   data: {
-    markdownRemark: MarkdownRemark
-  }
+    markdownRemark: MarkdownRemark,
+  },
 };
 
 const PageTemplate = ({ data }: Props) => {
-  const { title: siteTitle, description: siteDescription } = useSiteMetadata();
+  const { title: siteTitle, description: siteDescription, author } = useSiteMetadata();
   const { html: pageBody } = data.markdownRemark;
   const { title: pageTitle, description: pageDescription } = data.markdownRemark.frontmatter;
   const metaDescription = pageDescription !== null ? pageDescription : siteDescription;
 
   return (
-    <Layout title={`${pageTitle} - ${siteTitle}`} description={metaDescription}>
+    <Layout title={`${pageTitle} - ${siteTitle}`} description={metaDescription} author={author}>
       <Sidebar />
       <Page title={pageTitle}>
         <div dangerouslySetInnerHTML={{ __html: pageBody }} />

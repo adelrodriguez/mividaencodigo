@@ -6,21 +6,20 @@ import { useSiteMetadata } from '../hooks';
 import type { MarkdownRemark } from '../types';
 
 type Props = {
-  data: MarkdownRemark
+  data: MarkdownRemark,
 };
 
 const PostTemplate = ({ data }: Props) => {
-  const { title: siteTitle, description: siteDescription } = useSiteMetadata();
+  const { title: siteTitle, description: siteDescription, author } = useSiteMetadata();
   const { title: postTitle, description: postDescription } = data.markdownRemark.frontmatter;
   const metaDescription = postDescription !== null ? postDescription : siteDescription;
 
   return (
-    <Layout title={`${postTitle} - ${siteTitle}`} description={metaDescription}>
+    <Layout title={`${postTitle} - ${siteTitle}`} description={metaDescription} author={author}>
       <Post post={data.markdownRemark} />
     </Layout>
   );
 };
-
 
 export const query = graphql`
   query PostBySlug($slug: String!) {
@@ -40,6 +39,5 @@ export const query = graphql`
     }
   }
 `;
-
 
 export default PostTemplate;
