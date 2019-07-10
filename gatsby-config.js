@@ -8,6 +8,7 @@ module.exports = {
     url: siteConfig.url,
     title: siteConfig.title,
     subtitle: siteConfig.subtitle,
+    logo: siteConfig.logo,
     copyright: siteConfig.copyright,
     disqusShortname: siteConfig.disqusShortname,
     menu: siteConfig.menu,
@@ -171,7 +172,7 @@ module.exports = {
         background_color: '#FFF',
         theme_color: '#F7A046',
         display: 'standalone',
-        icon: 'static/photo.jpg'
+        icon: `static${siteConfig.logo}`
       },
     },
     'gatsby-plugin-offline',

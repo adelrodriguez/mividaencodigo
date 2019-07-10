@@ -1,13 +1,14 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
+  url: 'https://mividaencodigo.com/',
+  title: '<mividaencódigo />',
+  subtitle: 'Un blog sobre el código, la vida, y todo lo que va entre líneas.',
+  logo: '/logo.png',
+  copyright: `© ${new Date().getFullYear()} — Adel Rodríguez`,
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: 'UA-108969009-1',
   menu: [
     {
       label: 'Articles',
@@ -23,9 +24,9 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Adel Rodríguez',
+    photo: '/me.jpeg',
+    bio: 'Ingeniero Mecatrónico. Desarrollador de software. Intentando pensar menos, y hacer más.',
     contacts: {
       email: '#',
       telegram: '#',
