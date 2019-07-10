@@ -1,20 +1,20 @@
 // @flow
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Author from './Author';
+import About from './About';
 
-describe('Author', () => {
+describe('About', () => {
   const props = {
-    author: {
-      name: 'test',
-      photo: '/photo.jpg',
-      bio: 'test'
+    info: {
+      title: 'test',
+      logo: '/photo.jpg',
+      subtitle: 'test'
     },
     isIndex: false
   };
 
   it('renders correctly', () => {
-    const tree = renderer.create(<Author {...props} />).toJSON();
+    const tree = renderer.create(<About {...props} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

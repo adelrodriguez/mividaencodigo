@@ -1,6 +1,6 @@
 // @flow
 import React from 'react';
-import Author from './Author';
+import About from './About';
 import Contacts from './Contacts';
 import Copyright from './Copyright';
 import Menu from './Menu';
@@ -12,12 +12,14 @@ type Props = {
 };
 
 const Sidebar = ({ isIndex }: Props) => {
-  const { author, copyright, menu } = useSiteMetadata();
+  const {
+    author, copyright, menu, title, subtitle, logo,
+  } = useSiteMetadata();
 
   return (
     <div className={styles['sidebar']}>
       <div className={styles['sidebar__inner']}>
-        <Author author={author} isIndex={isIndex} />
+        <About info={{ title, subtitle, logo }} isIndex={isIndex} />
         <Menu menu={menu} />
         <Contacts contacts={author.contacts} />
         <Copyright copyright={copyright} />

@@ -17,7 +17,6 @@
         "graphql": true
     },
     "rules": {
-      "comma-dangle": 0,
       "import/imports-first": 0,
       "global-require": 0,
       "class-methods-use-this": 0,
