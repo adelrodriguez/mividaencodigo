@@ -21,29 +21,48 @@
     @include line-height(1);
     @include margin(0, 0, 1);
   }
-
 }
 
 @include breakpoint-sm {
   .page {
     lost-column: 7/12;
+    lost-offset: 5/12;
 
     &__inner {
       padding: 30px 20px;
     }
-
   }
-
 }
 
 @include breakpoint-md {
   .page {
     lost-column: 2/3;
+    lost-offset: 1/3;
 
     &__inner {
       padding: 40px 35px;
     }
-
   }
+}
 
+@include breakpoint-lg {
+  .page {
+    lost-column: 3/4;
+    lost-offset: 1/4;
+
+    &__inner {
+      padding: 40px 35px;
+    }
+  }
+}
+
+@include breakpoint-xl {
+  .page {
+    lost-column: 4/5;
+    lost-offset: 1/5;
+
+    &__inner {
+      padding: 40px 35px;
+    }
+  }
 }
