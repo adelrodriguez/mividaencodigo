@@ -8,11 +8,11 @@ import Page from '../components/Page';
 import { useSiteMetadata, useTagsList } from '../hooks';
 
 const TagsListTemplate = () => {
-  const { title, subtitle } = useSiteMetadata();
+  const { title, description } = useSiteMetadata();
   const tags = useTagsList();
 
   return (
-    <Layout title={`Tags - ${title}`} description={subtitle}>
+    <Layout title={`Tags - ${title}`} description={description}>
       <Sidebar />
       <Page title="Tags">
         <ul>

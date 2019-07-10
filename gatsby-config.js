@@ -7,7 +7,7 @@ module.exports = {
   siteMetadata: {
     url: siteConfig.url,
     title: siteConfig.title,
-    subtitle: siteConfig.subtitle,
+    description: siteConfig.description,
     logo: siteConfig.logo,
     copyright: siteConfig.copyright,
     disqusShortname: siteConfig.disqusShortname,
@@ -45,7 +45,7 @@ module.exports = {
               siteMetadata {
                 site_url: url
                 title
-                description: subtitle
+                description: description
               }
             }
           }
@@ -169,7 +169,7 @@ module.exports = {
         name: siteConfig.title,
         short_name: siteConfig.title,
         start_url: '/',
-        background_color: '#FFF',
+        background_color: '#f7df1e',
         theme_color: '#f7df1e',
         display: 'standalone',
         icon: 'static/favicon.png',

@@ -32,7 +32,7 @@ exports[`Sidebar renders correctly 1`] = `
         </a>
       </h1>
       <p
-        className="author__subtitle"
+        className="author__description"
       >
         Test bio
       </p>

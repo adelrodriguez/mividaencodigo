@@ -8,7 +8,7 @@ describe('About', () => {
     info: {
       title: 'test',
       logo: '/photo.jpg',
-      subtitle: 'test'
+      description: 'test'
     },
     isIndex: false
   };

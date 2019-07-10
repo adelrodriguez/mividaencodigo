@@ -3,7 +3,7 @@
 module.exports = {
   url: 'https://mividaencodigo.com/',
   title: '<mividaencódigo />',
-  subtitle: 'Un blog sobre el código, la vida, y todo lo que va entre líneas.',
+  description: 'Un blog sobre el código, la vida, y todo lo que va entre líneas.',
   logo: '/logo.png',
   copyright: `© ${new Date().getFullYear()} — Adel Rodríguez`,
   disqusShortname: '',
@@ -12,16 +12,16 @@ module.exports = {
   menu: [
     {
       label: 'Articles',
-      path: '/'
+      path: '/',
     },
     {
       label: 'About me',
-      path: '/pages/about'
+      path: '/pages/about',
     },
     {
       label: 'Contact me',
-      path: '/pages/contacts'
-    }
+      path: '/pages/contacts',
+    },
   ],
   author: {
     name: 'Adel Rodríguez',
@@ -33,7 +33,7 @@ module.exports = {
       twitter: '#',
       github: '#',
       rss: '#',
-      vkontakte: '#'
-    }
-  }
+      vkontakte: '#',
+    },
+  },
 };

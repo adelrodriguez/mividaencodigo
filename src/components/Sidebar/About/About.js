@@ -6,7 +6,7 @@ import styles from './About.module.scss';
 type Props = {
   info: {
     title: string,
-    subtitle: string,
+    description: string,
     logo: string
   },
   isIndex: ?boolean
@@ -33,7 +33,7 @@ const About = ({ info, isIndex }: Props) => (
         <Link className={styles['about__title-link']} to="/">{info.title}</Link>
       </h2>
     )}
-    <p className={styles['about__subtitle']}>{info.subtitle}</p>
+    <p className={styles['about__description']}>{info.description}</p>
   </div>
 );
 

@@ -5,7 +5,7 @@ module.exports = {
     siteMetadata: {
       url: 'http://localhost',
       title: 'Test title',
-      subtitle: 'Test subtitle',
+      description: 'Test description',
       copyright: 'Test copyright',
       disqusShortname: '',
       postsPerPage: 4,

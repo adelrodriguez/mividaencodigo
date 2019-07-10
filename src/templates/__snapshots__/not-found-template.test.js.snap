@@ -35,7 +35,7 @@ exports[`NotFoundTemplate renders correctly 1`] = `
           </a>
         </h2>
         <p
-          className="author__subtitle"
+          className="author__description"
         >
           Test bio
         </p>
