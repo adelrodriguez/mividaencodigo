@@ -14,7 +14,7 @@ type Props = {
   pageContext: PageContext,
 };
 
-const IndexTemplate = ({ data, pageContext }: Props) => {
+const PostsListTemplate = ({ data, pageContext }: Props) => {
   const { title: siteTitle, description: siteDescription, author } = useSiteMetadata();
 
   const {
@@ -22,7 +22,7 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
   } = pageContext;
 
   const { edges } = data.allMarkdownRemark;
-  const pageTitle = currentPage > 0 ? `Posts - Page ${currentPage} - ${siteTitle}` : siteTitle;
+  const pageTitle = currentPage > 0 ? `Entradas - Página ${currentPage} - ${siteTitle}` : `Entradas - ${siteTitle}`;
 
   return (
     <Layout title={pageTitle} description={siteDescription} author={author}>
@@ -41,7 +41,7 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
 };
 
 export const query = graphql`
-  query IndexTemplate($postsLimit: Int!, $postsOffset: Int!) {
+  query PostsListTemplate($postsLimit: Int!, $postsOffset: Int!) {
     allMarkdownRemark(
       limit: $postsLimit
       skip: $postsOffset
@@ -66,4 +66,4 @@ export const query = graphql`
   }
 `;
 
-export default IndexTemplate;
+export default PostsListTemplate;

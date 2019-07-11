@@ -6,25 +6,29 @@ module.exports = {
   description: 'Un blog sobre el código, la vida, y todo lo que va entre líneas.',
   logo: '/logo.png',
   copyright: `© ${new Date().getFullYear()} — Adel Rodríguez`,
-  disqusShortname: '',
+  disqusShortname: 'mividaencodigo',
   postsPerPage: 4,
   googleAnalyticsId: 'UA-108969009-1',
   menu: [
     {
-      label: 'Artículos',
+      label: 'Inicio',
       path: '/',
     },
     {
+      label: 'Entradas',
+      path: '/entradas/',
+    },
+    {
       label: 'Acerca del blog',
-      path: '/pages/about',
+      path: '/blog/',
     },
     {
       label: 'Acerca del autor',
-      path: '/pages/about',
+      path: '/autor/',
     },
     {
       label: 'Contáctame',
-      path: '/pages/contacts',
+      path: '/contacto/',
     },
   ],
   author: {

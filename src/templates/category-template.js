@@ -28,7 +28,7 @@ const CategoryTemplate = ({ data, pageContext }: Props) => {
 
   const { edges } = data.allMarkdownRemark;
   const pageTitle = currentPage > 0
-    ? `${category} - Page ${currentPage} - ${siteTitle}`
+    ? `${category} - Página ${currentPage} - ${siteTitle}`
     : `${category} - ${siteTitle}`;
 
   return (

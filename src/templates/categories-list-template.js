@@ -13,16 +13,16 @@ const CategoriesListTemplate = () => {
 
   return (
     <Layout
-      title={`Categories - ${title}`}
+      title={`Categorías - ${title}`}
       description={description}
       author={author}
     >
       <Sidebar />
-      <Page title="Categories">
+      <Page title="Categorías">
         <ul>
           {categories.map((category) => (
             <li key={category.fieldValue}>
-              <Link to={`/category/${kebabCase(category.fieldValue)}/`}>
+              <Link to={`/categorias/${kebabCase(category.fieldValue)}/`}>
                 {category.fieldValue} ({category.totalCount})
               </Link>
             </li>

@@ -18,20 +18,22 @@ module.exports = async (graphql, actions) => {
 
   const { postsPerPage } = siteConfig;
   const numPages = Math.ceil(result.data.allMarkdownRemark.totalCount / postsPerPage);
+  const slug = '/entradas';
 
-  for (let i = 0; i < numPages; i += 1) {
+  Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
-      path: i === 0 ? '/' : `/page/${i}`,
-      component: path.resolve('./src/templates/index-template.js'),
+      path: i === 0 ? slug : `${slug}/${i + 1}`,
+      component: path.resolve('./src/templates/posts-list-template.js'),
       context: {
-        currentPage: i,
+        currentPage: i + 1,
         postsLimit: postsPerPage,
         postsOffset: i * postsPerPage,
-        prevPagePath: i <= 1 ? '/' : `/page/${i - 1}`,
-        nextPagePath: `/page/${i + 1}`,
+        prevPagePath: i <= 1 ? slug : `${slug}/${i}`,
+        nextPagePath: i <= 1 ? `${slug}/${i + 2}` : `${slug}/${i + 1}`,
         hasPrevPage: i !== 0,
         hasNextPage: i !== numPages - 1,
+        numPages,
       },
     });
-  }
+  });
 };
