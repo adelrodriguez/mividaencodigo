@@ -11,15 +11,19 @@ module.exports = {
   googleAnalyticsId: 'UA-108969009-1',
   menu: [
     {
-      label: 'Articles',
+      label: 'Artículos',
       path: '/',
     },
     {
-      label: 'About me',
+      label: 'Acerca del blog',
       path: '/pages/about',
     },
     {
-      label: 'Contact me',
+      label: 'Acerca del autor',
+      path: '/pages/about',
+    },
+    {
+      label: 'Contáctame',
       path: '/pages/contacts',
     },
   ],

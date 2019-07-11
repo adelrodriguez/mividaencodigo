@@ -18,7 +18,7 @@ const About = ({ info, isIndex }: Props) => {
     graphql`
       {
         logo: imageSharp(original: {src: {regex: "/logo/"}}) {
-          fixed(height: 75) {
+          fixed(height: 100) {
             ...GatsbyImageSharpFixed
           }
         }
