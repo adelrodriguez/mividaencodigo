@@ -1,6 +1,7 @@
 // @flow
 import React from 'react';
 import moment from 'moment';
+import 'moment/locale/es';
 import { Link } from 'gatsby';
 import type { Edges } from '../../types';
 import styles from './Feed.module.scss';
@@ -9,13 +10,16 @@ type Props = {
   edges: Edges
 };
 
-const Feed = ({ edges }: Props) => (
+
+const Feed = ({ edges }: Props) => {
+
+  return (
   <div className={styles['feed']}>
     {edges.map((edge) => (
       <div className={styles['feed__item']} key={edge.node.fields.slug}>
         <div className={styles['feed__item-meta']}>
           <time className={styles['feed__item-meta-time']} dateTime={moment(edge.node.frontmatter.date).format('MMMM D, YYYY')}>
-            {moment(edge.node.frontmatter.date).format('MMMM YYYY')}
+            {moment(edge.node.frontmatter.date).format('MMMM D, YYYY')}
           </time>
           <span className={styles['feed__item-meta-divider']} />
           <span className={styles['feed__item-meta-category']}>
@@ -30,6 +34,6 @@ const Feed = ({ edges }: Props) => (
       </div>
     ))}
   </div>
-);
+)};
 
 export default Feed;
