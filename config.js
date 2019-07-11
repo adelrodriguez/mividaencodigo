@@ -28,12 +28,13 @@ module.exports = {
     photo: '/me.jpeg',
     bio: 'Ingeniero Mecatrónico. Desarrollador de software. Intentando pensar menos, y hacer más.',
     contacts: {
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      email: 'adelrodriguezv@gmail.com',
+      facebook: 'adelrv',
+      twitter: 'adelrv',
+      instagram: 'adelrodriguez',
+      github: 'adelrodriguez',
+      linkedin: 'adelrodriguez',
       rss: '#',
-      vkontakte: '#',
     },
   },
 };

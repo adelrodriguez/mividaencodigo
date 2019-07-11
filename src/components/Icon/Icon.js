@@ -1,18 +1,19 @@
 // @flow
 import React from 'react';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import styles from './Icon.module.scss';
 
+library.add(fab, fas);
+
 type Props = {
-  icon: {
-    viewBox?: string,
-    path?: string
-  }
+  icon: string | ?string[],
 };
 
 const Icon = ({ icon }: Props) => (
-  <svg className={styles['icon']} viewBox={icon.viewBox}>
-    <path d={icon.path} />
-  </svg>
+  <FontAwesomeIcon icon={icon} className={styles['icon']} />
 );
 
 export default Icon;
