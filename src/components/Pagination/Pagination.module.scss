@@ -6,7 +6,6 @@
   display: flex;
 
   &__prev {
-    width: 50%;
     text-align: left;
 
     &-link {
@@ -18,19 +17,12 @@
       &:focus {
         color: $color-primary;
       }
-
-      &--disable {
-        pointer-events: none;
-        color: lighten($color-gray, 20%);
-      }
-
     }
-
   }
 
   &__next {
-    width: 50%;
     text-align: right;
+    margin-left: auto;
 
     &-link {
       color: $color-secondary;
@@ -41,14 +33,6 @@
       &:focus {
         color: $color-primary;
       }
-
-      &--disable {
-        pointer-events: none;
-        color: lighten($color-gray, 20%);
-      }
-
     }
-
   }
-
 }
