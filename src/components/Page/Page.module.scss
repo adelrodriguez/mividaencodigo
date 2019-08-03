@@ -5,6 +5,8 @@
   @include margin-bottom(2);
 
   &__inner {
+    max-width: $layout-content-width;
+    margin: 0 auto;
     padding: 25px 20px;
   }
 

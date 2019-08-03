@@ -4,3 +4,9 @@
 .layout {
   lost-center: $layout-width;
 }
+
+@include breakpoint-lg {
+  .layout {
+    lost-center: $layout-width * 0.9;
+  }
+}
