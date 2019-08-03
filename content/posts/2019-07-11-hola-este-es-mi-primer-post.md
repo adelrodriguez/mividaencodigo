@@ -1,13 +1,13 @@
 ---
 template: post
 title: Hola! Este es mi primer post
-slug: mi-primer-post
-draft: true
+slug: /entradas/mi-primer-post/
+draft: false
 date: 2019-07-11T15:15:05.537Z
 description: Este post es una prueba
-category: typography
+category: "Typography"
 tags:
-  - web development
-  - typography
+  - "web development"
+  - "Typography"
 ---
 Hello world!

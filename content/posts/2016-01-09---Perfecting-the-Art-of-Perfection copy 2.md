@@ -3,7 +3,7 @@ title: Perfecting the Art of Perfection
 date: "2016-09-01T23:46:37.121Z"
 template: "post"
 draft: false
-slug: "/entradas/the-art-of-perfection/"
+slug: "/entradas/perfecting-the-art-of/"
 category: "Design Inspiration"
 tags:
   - "Handwriting"
