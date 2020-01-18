@@ -8,25 +8,22 @@ import styles from './Post.module.scss';
 import type { Node } from '../../types';
 
 type Props = {
-  post: Node
+  post: Node,
 };
 
 const Post = ({ post }: Props) => {
   const { html } = post;
-  const { tagSlugs, slug } = post.fields;
+  const { tagSlugs, slug, readingTime } = post.fields;
   const { tags, title, date } = post.frontmatter;
 
   return (
     <div className={styles['post']}>
-      <div
-        className={styles['post__home-button']}
-        onClick={() => window.history.back()}
-      >
+      <div className={styles['post__home-button']} onClick={() => window.history.back()}>
         ⟵
       </div>
 
       <div className={styles['post__content']}>
-        <Content body={html} title={title} date={date} />
+        <Content body={html} title={title} date={date} time={readingTime} />
       </div>
 
       <div className={styles['post__footer']}>
