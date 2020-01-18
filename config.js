@@ -34,11 +34,11 @@ module.exports = {
   author: {
     name: 'Adel Rodríguez',
     photo: '/me.jpeg',
-    bio: 'Ingeniero Mecatrónico. Desarrollador de software. Intentando pensar menos, y hacer más.',
+    bio: 'Quería ser escritor, pero terminé siendo ingeniero que a veces escribe.',
     contacts: {
       email: 'adelrodriguezv@gmail.com',
       facebook: 'adelrv',
-      twitter: 'adelrv',
+      twitter: '_adelrodriguez',
       instagram: 'adelrodriguez',
       github: 'adelrodriguez',
       linkedin: 'adelrodriguez',

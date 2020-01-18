@@ -12,7 +12,7 @@ const Author = () => {
     graphql`
       {
         photo: imageSharp(original: { src: { regex: "/adel/" } }) {
-          fixed(height: 50) {
+          fixed(height: 75) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -22,7 +22,7 @@ const Author = () => {
 
   return (
     <div className={styles['author']}>
-      <Image fixed={photo.fixed} className={styles['about__logo']} alt={author.name} />
+      <Image fixed={photo.fixed} className={styles['author__image']} alt={author.name} />
       <p className={styles['author__bio']}>
         {author.bio}
         <a
@@ -31,7 +31,7 @@ const Author = () => {
           rel="noopener noreferrer"
           target="_blank"
         >
-          <strong>{author.name}</strong> on Twitter
+          Encuéntrame en <strong>Twitter</strong>.
         </a>
       </p>
     </div>
