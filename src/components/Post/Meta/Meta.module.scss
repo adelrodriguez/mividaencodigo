@@ -2,8 +2,19 @@
 @import '../../../assets/scss/mixins';
 
 .meta {
-  &__date {
-    font-style: italic;
+  max-width: $layout-post-width;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: $color-gray;
+  font-size: $typographic-small-font-size;
+
+  &__icon {
+    margin-right: .3em;
   }
 
+  &__date {
+    text-transform: uppercase;
+  }
 }
