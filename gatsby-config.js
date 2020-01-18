@@ -188,5 +188,20 @@ module.exports = {
       },
     },
     'gatsby-plugin-flow',
+    {
+      resolve: 'gatsby-plugin-prefetch-google-fonts',
+      options: {
+        fonts: [
+          {
+            family: 'Roboto',
+            variants: ['400', '700', '900'],
+          },
+          {
+            family: 'Roboto Condensed',
+            variants: ['400', '700'],
+          },
+        ],
+      },
+    },
   ],
 };

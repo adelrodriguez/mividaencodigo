@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 0 0 calc(100vw - 100%);
   font-family: $typographic-font-family;
   color: $typographic-base-font-color;
   line-height: $typographic-base-line-height;
@@ -25,7 +25,7 @@ h4,
 h5,
 h6 {
   font-family: $typographic-font-family;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 h1 {
@@ -112,7 +112,7 @@ a {
 
 b,
 strong {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 ul {
