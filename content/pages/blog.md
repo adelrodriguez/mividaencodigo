@@ -5,7 +5,7 @@ template: "page"
 
 ¿Qué es _<mividaencódigo />_? Lo pueden ver a la izquierda. O arriba, si están en un dispositivo móvil. Es un blog sobre la vida, el código y todo lo que va entre líneas. Sencillo y al punto. No hay que explicar más.
 
-Ahora, _¿qué significa eso?_. Esa es la parte interesante.
+Ahora, _¿qué significa eso?_ Esa es la parte interesante.
 
 Primero, un poco de trasfondo histórico:
 
@@ -37,10 +37,10 @@ Los desarrolladores tienen una afición por los patos. Por eso existen conceptos
 
 <figure style="max-width: 500px; margin: 0 auto">
 	<img src="/media/blog-duck-mascot.jpg" alt="Early Printing Press">
-	<figcaption>Actualmente no tiene nombre, pero estoy por bautizarlo como Patricio. Qué original.</figcaption>
+	<figcaption>Actualmente no tiene nombre, pero estoy por bautizarlo como Patricio. Porque le dicen Pato a los Patricios. Qué original.</figcaption>
 </figure>
 
-Siento este blog lo que es, además que encuentro que el _rubber ducking_ es una buena técnica para la vida y no solo para el código, me encontré al pato como una buena mascota.
+Siendo este blog lo que es —una mezcla rara de ideas y conceptos pegados con la excusa de la tecnología—, junto con el hecho de que encuentro al _rubber ducking_ como una buena técnica para la vida y no solo para el código, decidí elegir al pato como una buena mascota.
 
 ## Cómo está hecho el blog
 
