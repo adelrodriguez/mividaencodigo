@@ -27,7 +27,7 @@ module.exports = {
       path: '/autor/',
     },
     {
-      label: 'Contáctame',
+      label: 'Contacto',
       path: '/contacto/',
     },
   ],
