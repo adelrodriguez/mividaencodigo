@@ -1,18 +1,20 @@
 // @flow
 import React from 'react';
-import Sidebar from '../components/Sidebar';
 import Layout from '../components/Layout';
 import Page from '../components/Page';
-import { useSiteMetadata } from '../hooks';
+import Sidebar from '../components/Sidebar';
+import Latest from '../components/Latest';
+import { useSiteMetadata, useLatestPosts } from '../hooks';
 
 const Home = () => {
   const { title, description, author } = useSiteMetadata();
+  const { edges } = useLatestPosts();
 
   return (
     <Layout title={`${title}`} description={description} author={author}>
       <Sidebar />
       <Page>
-        <p>Bienvenido a mividaencódigo</p>
+        <Latest edges={edges} />
       </Page>
     </Layout>
   );

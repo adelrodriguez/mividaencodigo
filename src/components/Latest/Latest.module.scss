@@ -1,0 +1,27 @@
+@import '../../assets/scss/variables';
+@import '../../assets/scss/mixins';
+
+.latest {
+  &__title {
+    @include margin-top(3);
+    @include margin-bottom(1.25);
+  }
+
+  &__posts {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@include breakpoint-lg {
+  .latest {
+    &__posts {
+      flex-direction: row;
+
+      &-item {
+        flex-grow: 1;
+        flex-basis: 0;
+      }
+    }
+  }
+}
