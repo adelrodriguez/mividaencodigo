@@ -1,4 +1,5 @@
 // @flow
-export { default as useSiteMetadata } from './use-site-metadata';
-export { default as useCategoriesList } from './use-categories-list';
-export { default as useTagsList } from './use-tags-list';
+export { default as useCategoriesList } from './useCategoriesList';
+export { default as useLatestPosts } from './useLatestPosts';
+export { default as useSiteMetadata } from './useSiteMetadata';
+export { default as useTagsList } from './useTagsList';

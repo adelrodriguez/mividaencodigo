@@ -17,7 +17,7 @@ const Meta = ({ date, time }: Props) => {
     <div className={styles['meta']}>
       <div className={styles['meta__container']}>
         <Icon className={styles['meta__icon']} icon={['far', 'calendar']} />
-        <span>{moment(date).locale('es-do').format('LL, h:mm A')}</span>
+        <time>{moment(date).locale('es-do').format('LL, h:mm A')}</time>
       </div>
       <div className={styles['meta__container']}>
         <Icon className={styles['meta__icon']} icon={['far', 'clock']} />
