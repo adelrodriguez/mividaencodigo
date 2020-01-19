@@ -36,7 +36,7 @@ Luego de todo esto, creo que solo queda una pregunta por responder:
 Los desarrolladores tienen una afición por los patos. Por eso existen conceptos como [_rubber ducking_](https://en.wikipedia.org/wiki/Rubber_duck_debugging "Rubber duck debugging - Wikipedia") y [_duck typing_](https://en.wikipedia.org/wiki/Duck_typing "Duck typing - Wikipedia"). Una vez le mencioné lo de rubber ducking a una amiga, y me regaló mi propio patito para que yo me inspirara. Aquí está:
 
 <figure style="max-width: 500px; margin: 0 auto">
-	<img src="/media/blog-duck-mascot.jpg" alt="Early Printing Press">
+	<img src="/media/blog-duck-mascot.jpg" alt="Patricio el pato">
 	<figcaption>Actualmente no tiene nombre, pero estoy por bautizarlo como Patricio. Porque le dicen Pato a los Patricios. Qué original.</figcaption>
 </figure>
 
