@@ -9,10 +9,14 @@ type Props = {
 
 const Latest = ({ edges }: Props) => (
   <div className={styles['latest']}>
-    <h1 className={styles['latest__title']}>¿Qué hay de nuevo?</h1>
+    <h2 className={styles['latest__title']}>¿Qué hay de nuevo?</h2>
     <div className={styles['latest__posts']}>
       {edges.map((edge) => (
-        <Item className={styles['latest__posts-item']} edge={edge} />
+        <Item
+          className={styles['latest__posts-item']}
+          edge={edge}
+          key={edge.node.fields.slug}
+        />
       ))}
     </div>
   </div>

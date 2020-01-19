@@ -11,7 +11,7 @@ type Props = {
 };
 
 const Item = ({ edge, className = '' }: Props) => (
-  <div className={`${styles['item']} ${className}`} key={edge.node.fields.slug}>
+  <div className={`${styles['item']} ${className}`}>
     <div className={styles['item__meta']}>
       <time
         className={styles['item__meta-time']}
@@ -26,11 +26,11 @@ const Item = ({ edge, className = '' }: Props) => (
         </Link>
       </span>
     </div>
-    <h2 className={styles['item__title']}>
+    <h3 className={styles['item__title']}>
       <Link className={styles['item__title-link']} to={edge.node.fields.slug}>
         {edge.node.frontmatter.title}
       </Link>
-    </h2>
+    </h3>
     <p className={styles['item__description']}>{edge.node.frontmatter.description}</p>
     <Link className={styles['item__readmore']} to={edge.node.fields.slug}>
       Leer más

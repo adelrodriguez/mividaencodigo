@@ -3,8 +3,9 @@
 
 .latest {
   &__title {
-    @include margin-top(3);
-    @include margin-bottom(1.25);
+    @include margin-top(3.25);
+    @include margin-bottom(1);
+    font-size: $typographic-base-font-size * 2.25;
   }
 
   &__posts {
