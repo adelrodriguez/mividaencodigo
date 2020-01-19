@@ -4,17 +4,24 @@ import Layout from '../components/Layout';
 import Page from '../components/Page';
 import Sidebar from '../components/Sidebar';
 import Latest from '../components/Latest';
-import { useSiteMetadata, useLatestPosts } from '../hooks';
+import Progress from '../components/Progress';
+import {
+  useSiteMetadata,
+  useLatestPosts,
+  useTrelloCards,
+} from '../hooks';
 
 const Home = () => {
   const { title, description, author } = useSiteMetadata();
-  const { edges } = useLatestPosts();
+  const latestPosts = useLatestPosts();
+  const trelloCards = useTrelloCards();
 
   return (
     <Layout title={`${title}`} description={description} author={author}>
-      <Sidebar />
+      <Sidebar isIndex />
       <Page>
-        <Latest edges={edges} />
+        <Latest edges={latestPosts.edges} />
+        <Progress edges={trelloCards.edges} />
       </Page>
     </Layout>
   );
