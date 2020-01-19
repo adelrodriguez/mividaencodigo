@@ -22,6 +22,10 @@
       &-item {
         flex-grow: 1;
         flex-basis: 0;
+
+        &:first-of-type {
+          margin-right: 3em;
+        }
       }
     }
   }
