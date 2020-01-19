@@ -35,7 +35,7 @@ Eso fue en julio. Estamos en enero.
 Sí, es una meta para mí tener este blog arriba este año. También lo fue en el 2019. ¿Qué ha cambiado? Al final, no mucho. Creo que son dos cosas claves:
 
 1. Estoy cansado de no poner en práctica lo que predico. Estoy bien claro que tener algo hecho es mil veces mejor a que sea perfecto, pero aun así sigo dejando las cosas para después. Hay cosas que llevo aplazando por más de una década. Ya no más. De verdad. Este blog es mi manera de iniciar un efecto dominó en mi vida.
-2. Ayer tuve un mal día, y decidí que tenía dos opciones: o me quedaba quieto y dejaba que mi angustia me arropara, o tomaba esa energía negativa y metía una alquimia rara para volverme productivo. Me fui por la segunda. Así que 10 horas de trabajo después, el blog está listo.
+2. Ayer tuve un mal día, y decidí que tenía dos opciones: o me quedaba quieto y dejaba que mi angustia me arropara, o tomaba esa energía negativa y metía una alquimia rara para volverme productivo. Me fui por la segunda. Diez horas de trabajo después, el blog está listo.
 
 Así que aquí está. Hecho. Listo para recibir docenas de entradas mal escritas, con cientos de errores gramaticales y un vocabulario extremadamente limitado.
 
