@@ -7,7 +7,7 @@ module.exports = {
   logo: '/logo.png',
   copyright: `© ${new Date().getFullYear()} — Adel Rodríguez`,
   disqusShortname: 'mividaencodigo',
-  postsPerPage: 4,
+  postsPerPage: 6,
   googleAnalyticsId: 'UA-108969009-1',
   menu: [
     {
@@ -37,12 +37,10 @@ module.exports = {
     bio: 'Quería ser escritor, pero terminé siendo ingeniero que a veces escribe.',
     contacts: {
       email: 'adelrodriguezv@gmail.com',
-      facebook: 'adelrv',
       twitter: '_adelrodriguez',
       instagram: 'adelrodriguez',
       github: 'adelrodriguez',
       linkedin: 'adelrodriguez',
-      rss: '#',
     },
   },
 };
