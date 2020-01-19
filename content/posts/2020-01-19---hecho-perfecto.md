@@ -26,7 +26,7 @@ Joder, yo nunca terminé un proyecto de _Art Attack_ porque nunca me estaba qued
 
 A mí nadie me diga que ser perfeccionista es una fortaleza. Es un problema crónico.
 
-Entonces el revivir este blog sufrió de eso. Básicamente fueron más de dos años en el limbo de "estoy trabajando en eso", pero nada salía. Incluso, hubo un momento que me dije que ya era suficiente y decidí ponerme los pantalones de bleguero. "No va a quedar perfecto pero estará listo" me dije. Y me puse a trabajar en él.
+Entonces el revivir este blog sufrió de eso. Básicamente fueron más de dos años en el limbo de "estoy trabajando en eso", pero nada salía. Incluso, hubo un momento que me dije que ya era suficiente y decidí ponerme los pantalones de bloguero. "No va a quedar perfecto pero estará listo" me dije. Y me puse a trabajar en él.
 
 Eso fue en julio. Estamos en enero.
 
