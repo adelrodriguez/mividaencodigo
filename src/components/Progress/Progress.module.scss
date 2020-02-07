@@ -8,13 +8,15 @@
   }
 
   &__course {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-
     &-name {
       font-weight: 700;
       text-transform: uppercase;
+    }
+
+    &-labels {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
     }
 
     &-label {
@@ -27,8 +29,8 @@
   }
 }
 
-@include breakpoint-md {
+@include breakpoint-lg {
   .progress {
-    max-width: $layout-width / 3;
+    max-width: $layout-content-width / 2;
   }
 }
