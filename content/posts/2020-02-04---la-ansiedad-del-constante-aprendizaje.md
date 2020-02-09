@@ -6,10 +6,10 @@ draft: false
 slug: "la-ansiedad-del-constante-aprendizaje"
 category: "Reflexiones"
 tags:
-  - "Aprendizaje"
-  - "Crecimiento Profesional"
-  - "Salud Mental"
-  - "Ansiedad"
+  - "aprendizaje"
+  - "crecimiento profesional"
+  - "salud mental"
+  - "ansiedad"
 description: "Para serles honestos, siento que estoy un poco mal parado. Este es un mundo inmenso, y la cantidad de temas de los que desconozco es exorbitante. Cosas que debería saber, cosas que deberé saber."
 ---
 

@@ -6,9 +6,9 @@ draft: false
 slug: "hecho-perfecto"
 category: "Meta"
 tags:
-  - "Perfeccionismo"
-  - "Crecimiento Personal"
-  - "Blogging"
+  - "perfeccionismo"
+  - "crecimiento personal"
+  - "blogging"
 description: "Los que me conocen sabrán que llevo tiempo hablando sobre un blog en el cual estaba trabajando. Los que me conocen aún mejor, saben que quería revivir el blog que cree hace como 3 años en un momento decisivo de mi vida. Y los que no me conocen para nada… bueno, es un placer tenerlos aquí. Luego los pongo en contexto."
 ---
 

@@ -29,7 +29,7 @@ const TagTemplate = ({ data, pageContext }: Props) => {
   return (
     <Layout title={pageTitle} description={siteDescription} author={author}>
       <Sidebar />
-      <Page title={tag}>
+      <Page title={`Etiqueta: ${tag}`}>
         <Feed edges={edges} />
         <Pagination
           prevPagePath={prevPagePath}
