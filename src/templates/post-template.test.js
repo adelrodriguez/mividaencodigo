@@ -19,7 +19,7 @@ describe('PostTemplate', () => {
       ({ render }: RenderCallback) => (
         render(siteMetadata)
       ),
-      useStaticQuery.mockReturnValue(siteMetadata)
+      useStaticQuery.mockReturnValue(siteMetadata),
     );
   });
 

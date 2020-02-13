@@ -15,17 +15,17 @@ type Props = {
 };
 
 const PostsListTemplate = ({ data, pageContext }: Props) => {
-  const { title: siteTitle, description: siteDescription, author } = useSiteMetadata();
+  const { description, author } = useSiteMetadata();
 
   const {
     currentPage, hasNextPage, hasPrevPage, prevPagePath, nextPagePath,
   } = pageContext;
 
   const { edges } = data.allMarkdownRemark;
-  const pageTitle = currentPage > 0 ? `Entradas - Página ${currentPage} - ${siteTitle}` : `Entradas - ${siteTitle}`;
+  const title = currentPage > 0 ? `Entradas - Página ${currentPage}` : 'Entradas';
 
   return (
-    <Layout title={pageTitle} description={siteDescription} author={author}>
+    <Layout title={title} description={description} author={author}>
       <Sidebar isIndex />
       <Page>
         <Feed edges={edges} />

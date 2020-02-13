@@ -8,12 +8,12 @@ import Page from '../components/Page';
 import { useSiteMetadata, useCategoriesList } from '../hooks';
 
 const CategoriesListTemplate = () => {
-  const { title, description, author } = useSiteMetadata();
+  const { description, author } = useSiteMetadata();
   const categories = useCategoriesList();
 
   return (
     <Layout
-      title={`Categorías - ${title}`}
+      title="Categorías"
       description={description}
       author={author}
     >

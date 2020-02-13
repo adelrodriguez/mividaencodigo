@@ -14,15 +14,15 @@ type Props = {
 };
 
 const PageTemplate = ({ data }: Props) => {
-  const { title: siteTitle, description: siteDescription, author } = useSiteMetadata();
+  const { description: siteDescription, author } = useSiteMetadata();
   const { html: pageBody } = data.markdownRemark;
-  const { title: pageTitle, description: pageDescription } = data.markdownRemark.frontmatter;
+  const { title, description: pageDescription } = data.markdownRemark.frontmatter;
   const metaDescription = pageDescription !== null ? pageDescription : siteDescription;
 
   return (
-    <Layout title={`${pageTitle} - ${siteTitle}`} description={metaDescription} author={author}>
+    <Layout title={title} description={metaDescription} author={author}>
       <Sidebar />
-      <Page title={pageTitle}>
+      <Page title={title}>
         <div dangerouslySetInnerHTML={{ __html: pageBody }} />
       </Page>
     </Layout>

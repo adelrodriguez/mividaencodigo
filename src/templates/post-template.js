@@ -10,12 +10,12 @@ type Props = {
 };
 
 const PostTemplate = ({ data }: Props) => {
-  const { title: siteTitle, description: siteDescription, author } = useSiteMetadata();
-  const { title: postTitle, description: postDescription } = data.markdownRemark.frontmatter;
+  const { description: siteDescription, author } = useSiteMetadata();
+  const { title, description: postDescription } = data.markdownRemark.frontmatter;
   const metaDescription = postDescription !== null ? postDescription : siteDescription;
 
   return (
-    <Layout title={`${postTitle} - ${siteTitle}`} description={metaDescription} author={author}>
+    <Layout title={title} description={metaDescription} author={author}>
       <Post post={data.markdownRemark} />
     </Layout>
   );

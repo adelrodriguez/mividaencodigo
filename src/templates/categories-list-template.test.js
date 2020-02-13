@@ -10,7 +10,7 @@ import type { RenderCallback } from '../types';
 describe('CategoriesListTemplate', () => {
   const props = {
     ...siteMetadata,
-    ...allMarkdownRemark
+    ...allMarkdownRemark,
   };
 
   beforeEach(() => {
@@ -18,7 +18,7 @@ describe('CategoriesListTemplate', () => {
       ({ render }: RenderCallback) => (
         render(props)
       ),
-      useStaticQuery.mockReturnValue(props)
+      useStaticQuery.mockReturnValue(props),
     );
   });
 

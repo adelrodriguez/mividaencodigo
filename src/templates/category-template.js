@@ -15,7 +15,7 @@ type Props = {
 };
 
 const CategoryTemplate = ({ data, pageContext }: Props) => {
-  const { title: siteTitle, description: siteDescription, author } = useSiteMetadata();
+  const { description, author } = useSiteMetadata();
 
   const {
     category,
@@ -28,11 +28,11 @@ const CategoryTemplate = ({ data, pageContext }: Props) => {
 
   const { edges } = data.allMarkdownRemark;
   const pageTitle = currentPage > 0
-    ? `${category} - Página ${currentPage} - ${siteTitle}`
-    : `${category} - ${siteTitle}`;
+    ? `${category} - Página ${currentPage}`
+    : `${category}`;
 
   return (
-    <Layout title={pageTitle} description={siteDescription} author={author}>
+    <Layout title={pageTitle} description={description} author={author}>
       <Sidebar />
       <Page title={`Categoría: ${category}`}>
         <Feed edges={edges} />

@@ -15,19 +15,19 @@ type Props = {
 };
 
 const TagTemplate = ({ data, pageContext }: Props) => {
-  const { title: siteTitle, description: siteDescription, author } = useSiteMetadata();
+  const { description, author } = useSiteMetadata();
 
   const {
     tag, currentPage, prevPagePath, nextPagePath, hasPrevPage, hasNextPage,
   } = pageContext;
 
   const { edges } = data.allMarkdownRemark;
-  const pageTitle = currentPage > 0
-    ? `Todas las entradas etiquetadas como "${tag}" - Página ${currentPage} - ${siteTitle}`
-    : `Todas las entradas etiquetadas como "${tag}" - ${siteTitle}`;
+  const title = currentPage > 0
+    ? `Todas las entradas etiquetadas como "${tag}" - Página ${currentPage}`
+    : `Todas las entradas etiquetadas como "${tag}"`;
 
   return (
-    <Layout title={pageTitle} description={siteDescription} author={author}>
+    <Layout title={title} description={description} author={author}>
       <Sidebar />
       <Page title={`Etiqueta: ${tag}`}>
         <Feed edges={edges} />
