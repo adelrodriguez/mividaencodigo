@@ -4,7 +4,6 @@ import Helmet from 'react-helmet';
 import type { Node as ReactNode } from 'react';
 import { useSiteMetadata } from '../../hooks';
 import styles from './Layout.module.scss';
-import image from '../../../static/logo.png';
 
 type Props = {
   children: ReactNode,
@@ -16,7 +15,12 @@ type Props = {
 };
 
 const Layout = ({ children, title, description, author }: Props) => {
-  const { title: siteTitle, description: siteDescription } = useSiteMetadata();
+  const {
+    title: siteTitle,
+    description: siteDescription,
+    url: siteUrl,
+    logo: siteLogo,
+  } = useSiteMetadata();
 
   return (
     <div className={styles.layout}>
@@ -29,9 +33,10 @@ const Layout = ({ children, title, description, author }: Props) => {
         meta={[
           { name: 'description', content: description },
           { property: 'og:title', content: title },
-          { property: 'og:description', content: description },
+          { property: 'og:description', content: description || siteDescription },
           { property: 'og:type', content: 'website' },
-          { property: 'og:image', content: image },
+          { property: 'og:image', content: `${siteUrl}${siteLogo}` },
+          { property: 'og:url', content: siteUrl },
           { name: 'twitter:card', content: 'summary' },
           { name: 'twitter:creator', content: author.name },
           { name: 'twitter:title', content: title },

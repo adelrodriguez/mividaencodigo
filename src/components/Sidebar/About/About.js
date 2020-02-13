@@ -8,7 +8,6 @@ type Props = {
   info: {
     title: string,
     description: string,
-    logo: string
   },
   isIndex: ?boolean
 };

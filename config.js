@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://mividaencodigo.com/',
   title: '<mividaencódigo />',
   description: 'Un blog sobre el código, la vida, y todo lo que va entre líneas.',
-  logo: '/logo.png',
+  logo: 'logo.png',
   copyright: `© ${new Date().getFullYear()} — Adel Rodríguez`,
   disqusShortname: 'mividaencodigo',
   postsPerPage: 6,
