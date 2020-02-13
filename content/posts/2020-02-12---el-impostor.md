@@ -2,7 +2,7 @@
 template: post
 title: El impostor
 slug: el-impostor
-draft: true
+draft: false
 date: 2020-02-13T03:30:10.871Z
 description: >-
   Hace unos días compartí una entrada sobre la ansiedad que siento a través de
@@ -15,17 +15,18 @@ tags:
   - síndrome del impostor
   - salud mental
 ---
+
 Hace unos días compartí [una entrada](/la-ansiedad-del-constante-aprendizaje) sobre la ansiedad que siento a través de mi aprendizaje, y no fueron ni una ni dos personas que se sintieron identificadas con lo describí ahí. Esa reacción debió sorprenderme... pero no lo hizo, porque he leído bastante sobre el tema en mi lucha por vencerlo.
 
 Si no lo conocen, les presento al [síndrome del impostor](https://es.wikipedia.org/wiki/S%C3%ADndrome_del_impostor).
 
 El síndrome del impostor es ese sentimiento de duda que tenemos sobre nosotros mismo y nuestras habilidades, junto con una incapacidad de interioridad nuestros méritos y el miedo de que las personas "descubran" que no somos lo que aparentamos ser.
 
-Los que sufrimos  de este fenómeno tenemos tendencia a disminuir nuestros logros. "Todo se debe a la suerte", "no soy tan buenos como los otros piensan que soy". "Los retos a los que me enfrento no son tan difíciles como los de los demás". "Cualquier persona pudo hacerlo". Estos son los grandes éxitos del impostor, y los pone en repetición una y otra vez.
+Los que sufrimos de este fenómeno tenemos tendencia a disminuir nuestros logros. "Todo se debe a la suerte", "no soy tan buenos como los otros piensan que soy". "Los retos a los que me enfrento no son tan difíciles como los de los demás". "Cualquier persona pudo hacerlo". Estos son los grandes éxitos del impostor, y los pone en repetición una y otra vez.
 
 Entonces, frente a esto, ¿qué hacemos para enfrentar esta condición? Si son como yo, comienzan a buscar más oportunidades de poder demostrar su capacidad. Asumimos más retos y más desafíos en una búsqueda desesperada de poder comprobarnos a nosotros mismos que todo lo que tenemos no se debe a la suerte.
 
-Pero lo  que no nos damos cuenta es que el éxito no es la cura para esto. Al contrario, entre más éxito obtienes, más te sientes como fraude. Porque ahora tienes más responsabilidades, más personas están contando contigo a las que terminarás decepcionando, y tu inminente fracaso será mucho mayor.
+Pero lo que no nos damos cuenta es que el éxito no es la cura para esto. Al contrario, entre más éxito obtienes, más te sientes como fraude. Porque ahora tienes más responsabilidades, más personas están contando contigo a las que terminarás decepcionando, y tu inminente fracaso será mucho mayor.
 
 Muchas de las personas que considero más capaces y exitosas, o que veo en un camino claro al éxito, son las que me han dicho que se sienten más identificadas con el síndrome del impostor.
 
