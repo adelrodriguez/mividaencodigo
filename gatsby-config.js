@@ -9,6 +9,7 @@ module.exports = {
     title: siteConfig.title,
     description: siteConfig.description,
     logo: siteConfig.logo,
+    image: siteConfig.image,
     copyright: siteConfig.copyright,
     disqusShortname: siteConfig.disqusShortname,
     menu: siteConfig.menu,

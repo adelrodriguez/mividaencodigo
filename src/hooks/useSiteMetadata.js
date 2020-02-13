@@ -25,6 +25,7 @@ const useSiteMetadata = () => {
             }
             url
             logo
+            image
             title
             description
             copyright

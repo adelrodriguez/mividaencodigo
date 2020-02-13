@@ -19,7 +19,7 @@ const Layout = ({ children, title, description, author }: Props) => {
     title: siteTitle,
     description: siteDescription,
     url: siteUrl,
-    logo: siteLogo,
+    image: siteImage,
   } = useSiteMetadata();
 
   return (
@@ -35,7 +35,7 @@ const Layout = ({ children, title, description, author }: Props) => {
           { property: 'og:title', content: title },
           { property: 'og:description', content: description || siteDescription },
           { property: 'og:type', content: 'website' },
-          { property: 'og:image', content: `${siteUrl}${siteLogo}` },
+          { property: 'og:image', content: `${siteUrl}${siteImage}` },
           { property: 'og:url', content: siteUrl },
           { name: 'twitter:card', content: 'summary' },
           { name: 'twitter:creator', content: author.name },
