@@ -4,7 +4,7 @@ date: 2020-01-19T16:00:00.591Z
 template: "post"
 draft: false
 slug: "hecho-perfecto"
-category: "Meta"
+category: "Blog"
 tags:
   - "perfeccionismo"
   - "crecimiento personal"

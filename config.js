@@ -19,6 +19,14 @@ module.exports = {
       path: '/entradas/',
     },
     {
+      label: 'Categorías',
+      path: '/categorias/',
+    },
+    {
+      label: 'Etiquetas',
+      path: '/etiquetas/',
+    },
+    {
       label: 'Acerca del blog',
       path: '/blog/',
     },
