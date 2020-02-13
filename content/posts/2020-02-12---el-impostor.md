@@ -20,7 +20,7 @@ Hace unos días compartí [una entrada](/la-ansiedad-del-constante-aprendizaje) 
 
 Si no lo conocen, les presento al [síndrome del impostor](https://es.wikipedia.org/wiki/S%C3%ADndrome_del_impostor).
 
-El síndrome del impostor es ese sentimiento de duda que tenemos sobre nosotros mismo y nuestras habilidades, junto con una incapacidad de interioridad nuestros méritos y el miedo de que las personas "descubran" que no somos lo que aparentamos ser.
+El síndrome del impostor es ese sentimiento de duda que tenemos sobre nosotros mismos y nuestras habilidades, junto con una incapacidad de interiorizar nuestros méritos y el miedo de que las personas "descubran" que no somos lo que aparentamos ser.
 
 Los que sufrimos de este fenómeno tenemos tendencia a disminuir nuestros logros. "Todo se debe a la suerte", "no soy tan buenos como los otros piensan que soy". "Los retos a los que me enfrento no son tan difíciles como los de los demás". "Cualquier persona pudo hacerlo". Estos son los grandes éxitos del impostor, y los pone en repetición una y otra vez.
 
@@ -38,7 +38,7 @@ Eso pasa.
 
 Creo que mi experiencia con mi impostor inició (o se intensificó de una manera extraordinaria) en la universidad. Fui alguien que era considerado "inteligente" en el colegio, y en la universidad comencé a verme retado con situaciones que no podía solucionar con los malos hábitos que me había dejado mi "inteligencia" en el colegio. Y ahí fue donde comencé a decirme "ya me van a descubrir, soy un impostor y no sé nada".
 
-Sufrí muy malos momentos. Muchos. Hubo muchas lágrimas de frustración durante esos años. Y el graduarse fue agridulce cuando piensas (o mejor dicho, \_sabes\_) que simplemente lo lograste por suerte. Que hubo clases que no debiste pasar. Que hubo notas que no merecías. Que no aprendiste lo suficiente para tener ese título en tus manos. Y alguien se daría cuenta. Alguien, en un día totalmente normal, te pararía en la calle, te comenzaría a hacer preguntas sobre algún tema que un graduado como tú \_definitivamente\_ debería saber, y te quitaría el título por ser un fraude. Y es lo que te toca.
+Sufrí muy malos momentos. Muchos. Hubo muchas lágrimas de frustración durante esos años. Y el graduarse fue agridulce cuando piensas (o mejor dicho, _sabes_) que simplemente lo lograste por suerte. Que hubo clases que no debiste pasar. Que hubo notas que no merecías. Que no aprendiste lo suficiente para tener ese título en tus manos. Y alguien se daría cuenta. Alguien, en un día totalmente normal, te pararía en la calle, te comenzaría a hacer preguntas sobre algún tema que un graduado como tú _definitivamente_ debería saber, y te quitaría el título por ser un fraude. Y es lo que te toca.
 
 Quisiera darles trucos o algún secreto mágico para solucionarlo... pero no lo tengo. Vivo con él cada día, y lo único que puedo hacer para que no me detenga es arriesgarme, aun cuando me sienta como un impostor. Confiar en mí, y entender que mis logros son por mi esfuerzo. Es cierto que hay suerte, pero la suerte es oportunidad más preparación. Confiar en las personas a mi alrededor, y en sus creencias positivas sobre mí. Dejar de compararme a otros, o compararme a la imagen que tengo de una perfección que nunca alcanzaré.
 
