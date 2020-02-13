@@ -36,6 +36,8 @@ const Layout = ({ children, title, description, author }: Props) => {
           { property: 'og:description', content: description || siteDescription },
           { property: 'og:type', content: 'website' },
           { property: 'og:image', content: `${siteUrl}${siteImage}` },
+          { property: 'og:image:secure_url', content: `${siteUrl}${siteImage}` },
+          { property: 'og:image:alt', content: 'A rubber duck surrounded by tags' },
           { property: 'og:url', content: siteUrl },
           { name: 'twitter:card', content: 'summary' },
           { name: 'twitter:creator', content: author.name },
