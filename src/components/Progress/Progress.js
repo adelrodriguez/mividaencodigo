@@ -11,7 +11,7 @@ const Progress = ({ edges }: Props) => (
     <h2 className={styles['progress__title']}>¿Qué estoy aprendiendo?</h2>
     <p>
       Uno de los propósitos de este blog es darle seguimiento a mi crecimiento como Ingeniero de
-      Foftware. Y eso significa mucho estudiar, y un aprendizaje constante. Estos son los cursos que
+      Software. Y eso significa mucho estudiar, y un aprendizaje constante. Estos son los cursos que
       estoy tomando actualmente:
     </p>
     <ul>
