@@ -11,7 +11,7 @@ description: >-
   Yo no soy un gurú de trabajo remoto, pero tengo la experiencia de llevar
   trabajando así por más de 2 años. Por eso quiero hablar un poco sobre el tema,
   a ver si puedo ayudar por lo menos a una persona a manejar mejor la situación.
-category: Trabajo Remoto
+category: Trabajo remoto
 tags:
   - trabajo remoto
   - teletrabajo
