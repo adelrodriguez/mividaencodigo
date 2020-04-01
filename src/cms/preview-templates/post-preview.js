@@ -4,7 +4,7 @@ import type { Entry, WidgetFor } from '../../types';
 
 type Props = {
   entry: Entry,
-  widgetFor: WidgetFor
+  widgetFor: WidgetFor,
 };
 
 const PostPreview = ({ entry, widgetFor }: Props) => {
