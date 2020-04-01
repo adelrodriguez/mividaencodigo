@@ -1,24 +1,27 @@
 ---
-title: "Lo que estoy aprendiendo"
-date: 2020-02-09T18:30:47.000Z
-template: "post"
+template: post
+title: Lo que estoy aprendiendo
+slug: lo-que-estoy-aprendiendo
 draft: false
-slug: "lo-que-estoy-aprendiendo"
-category: "Desarrollo Profesional"
+date: 2020-02-09T18:30:47.000Z
+description: >-
+  Al entrar al blog, en la página principal, hay una sección que se llama "¿Qué
+  estoy aprendiendo?" con algunos enlaces. Si han revisado a dónde lleva, pues
+  ahora les explico un poco. Si no, pues bienvenidos sean a conocer un poco de
+  mi locura.
+category: Desarrollo profesional
 tags:
-  - "aprendizaje"
-  - "crecimiento profesional"
-  - "desarrollo web"
-  - "Trello"
-  - "ciencia de datos"
-  - "Udemy"
-  - "DataCamp"
-  - "ciencia computacional"
-  - "FreeCodeCamp"
-  - "OSSU"
-  - "economía"
-description: "Al entrar al blog, en la página principal, hay una sección que se llama \"¿Qué estoy aprendiendo?\" con algunos enlaces. Si han revisado a dónde lleva, pues ahora les explico un poco. Si no, pues bienvenidos sean a conocer un poco de mi locura."
-socialImage: "/media/trello_board_2020-02-07.png"
+  - aprendizaje
+  - crecimiento profesional
+  - desarrollo web
+  - Trello
+  - ciencia de datos
+  - Udemy
+  - DataCamp
+  - ciencia computacional
+  - FreeCodeCamp
+  - OSSU
+  - economía
 ---
 
 Al entrar al blog, en la página principal, hay una sección que se llama "¿Qué estoy aprendiendo?" con algunos enlaces. Si han revisado a dónde lleva, pues ahora les explico un poco. Si no, pues bienvenidos sean a conocer un poco de mi locura.
