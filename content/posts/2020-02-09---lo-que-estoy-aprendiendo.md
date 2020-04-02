@@ -9,7 +9,7 @@ description: >-
   estoy aprendiendo?" con algunos enlaces. Si han revisado a dónde lleva, pues
   ahora les explico un poco. Si no, pues bienvenidos sean a conocer un poco de
   mi locura.
-category: Desarrollo profesional
+category: Aprendizaje
 tags:
   - aprendizaje
   - crecimiento profesional
