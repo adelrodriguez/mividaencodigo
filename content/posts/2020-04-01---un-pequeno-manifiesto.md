@@ -2,7 +2,7 @@
 template: post
 title: Un pequeño manifiesto
 slug: un-pequeno-manifiesto
-draft: true
+draft: false
 date: 2020-04-01T23:31:59.089Z
 description: >-
   Hace unos días, me puse la tarea de limpiar y organizar todas antiguas notas y

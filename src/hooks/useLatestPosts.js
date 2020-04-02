@@ -4,7 +4,11 @@ const useLatestPosts = () => {
   const { allMarkdownRemark } = useStaticQuery(
     graphql`
       query LatestPostsQuery {
-        allMarkdownRemark(limit: 2, filter: {frontmatter: {template: {eq: "post"}}}, sort: {order: DESC, fields: [frontmatter___date]}) {
+        allMarkdownRemark(
+          limit: 2
+          filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
+          sort: { order: DESC, fields: [frontmatter___date] }
+        ) {
           edges {
             node {
               fields {
@@ -21,7 +25,7 @@ const useLatestPosts = () => {
           }
         }
       }
-    `,
+    `
   );
 
   return allMarkdownRemark;
