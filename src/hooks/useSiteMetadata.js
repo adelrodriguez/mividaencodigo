@@ -27,6 +27,7 @@ const useSiteMetadata = () => {
             logo
             image
             title
+            subtitle
             description
             copyright
             disqusShortname

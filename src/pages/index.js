@@ -12,12 +12,12 @@ import {
 } from '../hooks';
 
 const Home = () => {
-  const { description, author } = useSiteMetadata();
+  const { description, author, subtitle } = useSiteMetadata();
   const latestPosts = useLatestPosts();
   const trelloCards = useTrelloCards();
 
   return (
-    <Layout title="Inicio" description={description} author={author}>
+    <Layout title={subtitle} description={description} author={author}>
       <Sidebar isIndex />
       <Page>
         <Latest edges={latestPosts.edges} />

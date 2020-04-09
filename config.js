@@ -3,7 +3,9 @@
 module.exports = {
   url: 'https://mividaencodigo.com/',
   title: '<mividaencódigo />',
-  description: 'Un blog sobre el código, la vida, y todo lo que va entre líneas.',
+  subtitle: 'Un blog sobre la vida, el código, y todo lo que va entre líneas',
+  description:
+    'Un blog por Adel Rodríguez, un ingeniero viviendo en la República Dominicana, sobre crecimiento profesional y personal en el mundo de la programación y el software.',
   image: 'image.png',
   logo: 'logo.png',
   copyright: `© ${new Date().getFullYear()} — Adel Rodríguez`,
