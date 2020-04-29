@@ -56,3 +56,5 @@ Por último, la tercera y —en mi opinión— la más importante razón que me 
 Esto lo pude hacer porque tenía la pasión necesaria para perseguir eso, y aún la tengo. He hablado de mi proceso de aprendizaje, de toda la información que quisiera absorber y de cómo quiero estar creciendo cada día más. Para mí esto ha sido lo que me ha llevado donde estoy hoy en día, y es lo que me da la visión para definir mi siguiente paso.
 
 ¿Y entonces, qué tal es trabajar remoto? Pues decir que siempre ha sido fácil y excelente sería una mentira. Existen muchos retos, no solo operacionales pero también para tu salud mental, como empleado. Estaré hablando de ellos en la segunda parte.
+
+[Segunda parte](/el-trabajo-remoto-y-yo-segunda-parte)
