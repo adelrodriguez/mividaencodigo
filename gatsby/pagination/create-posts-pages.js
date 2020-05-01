@@ -29,7 +29,7 @@ module.exports = async (graphql, actions) => {
         postsLimit: postsPerPage,
         postsOffset: i * postsPerPage,
         prevPagePath: i <= 1 ? slug : `${slug}/${i}`,
-        nextPagePath: i <= 1 ? `${slug}/${i + 2}` : `${slug}/${i + 1}`,
+        nextPagePath: `${slug}/${i + 2}`,
         hasPrevPage: i !== 0,
         hasNextPage: i !== numPages - 1,
         numPages,
