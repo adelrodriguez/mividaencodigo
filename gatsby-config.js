@@ -48,6 +48,7 @@ module.exports = {
               strict: 'ignore',
             },
           },
+          'gatsby-remark-relative-images',
           {
             resolve: 'gatsby-remark-images',
             options: { maxWidth: 960 },
@@ -146,18 +147,24 @@ module.exports = {
     },
     'gatsby-plugin-flow',
     {
-      resolve: 'gatsby-plugin-prefetch-google-fonts',
+      resolve: 'gatsby-plugin-webfonts',
       options: {
-        fonts: [
-          {
-            family: 'Roboto',
-            variants: ['400', '700', '900'],
-          },
-          {
-            family: 'Roboto Condensed',
-            variants: ['400', '700'],
-          },
-        ],
+        fonts: {
+          google: [
+            {
+              family: 'Roboto',
+              variants: ['400', '700', '900'],
+            },
+            {
+              family: 'Roboto Condensed',
+              variants: ['400', '700'],
+            },
+            {
+              family: 'Lato',
+              variants: ['400', '700', '900'],
+            },
+          ],
+        },
       },
     },
     {
