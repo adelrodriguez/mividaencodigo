@@ -4,8 +4,13 @@ title: El trabajo remoto y yo (tercera parte)
 slug: el-trabajo-remoto-y-yo-tercera-parte
 draft: false
 date: 2021-01-12T16:35:40.000Z
-description: >-
-  A principios del año pasado, comencé a buscar un nuevo empleo. Aunque estaba muy agradecido con la oportunidad que me habían dado al entrar al mundo del trabajo remoto, no me siento cómodo quedándome mucho tiempo en un solo lugar sin evitar sentir que me estoy estancando. Con el pasar de los meses comencé a buscar algo que se alineara mejor con mis valores y a lo que busco en un lugar de trabajo. Una cultura que hablara más conmigo, una mayor harmonía entre mi trabajo y mi vida personal, y en especial, mayores retos.
+description: A principios del año pasado, comencé a buscar un nuevo empleo.
+  Aunque estaba muy agradecido con la oportunidad que me habían dado al entrar
+  al mundo del trabajo remoto, no me siento cómodo quedándome mucho tiempo en un
+  solo lugar sin evitar sentir que me estoy estancando. Con el pasar de los
+  meses comencé a buscar algo que se alineara mejor con mis valores y a lo que
+  busco en un lugar de trabajo. Una cultura que hablara más conmigo, una mayor
+  harmonía entre mi trabajo y mi vida personal, y en especial, mayores retos.
 category: Trabajo remoto
 tags:
   - trabajo remoto
@@ -16,7 +21,7 @@ tags:
   - empresa local
   - desarrollador junior
 ---
-A principios del año pasado, comencé a buscar un nuevo empleo. Aunque estaba muy agradecido con la oportunidad que me habían dado al entrar al mundo del trabajo remoto, no me siento cómodo quedándome mucho tiempo en un solo lugar sin evitar sentir que me estoy estancando. Con el pasar de los meses comencé a buscar algo que se alineara mejor con mis valores y a lo que busco en un lugar de trabajo. Una cultura que hablara más conmigo, una mayor harmonía entre mi trabajo y mi vida personal, y en especial, mayores retos.
+A principios del año pasado, comencé a buscar un nuevo empleo. Aunque estaba muy agradecido con la oportunidad que me habían dado al entrar al mundo del trabajo remoto, no me siento cómodo quedándome mucho tiempo en un solo lugar sin evitar sentir que me estoy estancando. Con el pasar de los meses comencé a buscar algo que se alineara mejor con mis valores y a lo que busco en un lugar de trabajo. Una cultura que hablara más conmigo, una mayor armonía entre mi trabajo y mi vida personal, y en especial, mayores retos.
 
 Al iniciar, ese era mi principal motivador: quería crecer más. Y rápido.
 
@@ -26,7 +31,7 @@ Probablemente no tengo la madurez necesaria para entender la importancia de tene
 
 Cuando comencé a aprender desarrollo web con miras a conseguir un trabajo remoto, busqué las recomendaciones que les daban a otros desarrolladores locales que tenían la misma meta. Aunque había gran variedad de opiniones, pude encontrar una opinión en común:
 
-_Busca un trabajo local, adquiere experiencia, y luego puedes comenzar a pensar en uno remoto._
+*Busca un trabajo local, adquiere experiencia, y luego puedes comenzar a pensar en uno remoto.*
 
 Esto me hizo mucho ruido, porque iba en contra de lo que quería en el momento. ¿Durar 1 o 2 años trabajando para una empresa local? Imposible. Mi meta era un trabajo remoto y eso era lo que iba a conseguir. Yo sabía lo que implicaba ser un empleado para una empresa de desarrollo de software local, y dentro de mi cabeza, yo era lo suficientemente bueno el camino recorrido por otros no era el mío.
 
