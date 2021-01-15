@@ -5,7 +5,7 @@ template: "page"
 
 En la barra de navegación están las distintas formas de ponerte en contacto conmigo, pero ya que tomaste el esfuerzo de estar leyendo esto, te daré los trucos.
 
-Si quieres hablar de manera casual, puedes enviarme un mensaje a mi [Twitter](https://twitter.com/_adelrodriguez "Adel Rodríguez (@_adelrodriguez) / Twitter"), donde es probable que responda más rápido. A veces tiro algunas ideas interesantes por ahí, pero no las esperes parado.
+Si quieres hablar de manera casual, puedes enviarme un mensaje a mi [Twitter](https://twitter.com/adelrodriguezv "Adel Rodríguez (@adelrodriguezv) / Twitter"), donde es probable que responda más rápido. A veces tiro algunas ideas interesantes por ahí, pero no las esperes parado.
 
 Si quieres contactarme para algún tema profesional o algo más serio, puedes [enviarme un correo](mailto:hello@adelrodriguez.com), y te responderé dentro de un tiempo razonable. O puedes seguirme y escribirme en [LinkedIn](https://www.linkedin.com/in/adelrodriguez/ "Adel Rodríguez | LinkedIn"), que también utilizo con frecuencia.
 

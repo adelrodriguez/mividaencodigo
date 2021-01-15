@@ -48,7 +48,7 @@ module.exports = {
     bio: 'Quería ser escritor, pero terminé siendo ingeniero que a veces escribe.',
     contacts: {
       email: 'adelrodriguezv@gmail.com',
-      twitter: '_adelrodriguez',
+      twitter: 'adelrodriguezv',
       instagram: 'adelrodriguez',
       github: 'adelrodriguez',
       linkedin: 'adelrodriguez',
