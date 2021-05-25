@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://mividaencodigo.com/sitemap.xml
-Host: https://mividaencodigo.com
+Sitemap: https://adelrodriguez.com/mividaencodigo/sitemap.xml
+Host: https://adelrodriguez.com
