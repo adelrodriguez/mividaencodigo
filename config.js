@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://mividaencodigo.com/',
+  url: 'https://adelrodriguez.com/mividaencodigo/',
   title: '<mividaencódigo />',
   subtitle: 'Un blog sobre la vida, el código, y todo lo que va entre líneas',
   description:
