@@ -27,10 +27,10 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-40d3037325a78f3c2d01.js"
+    "url": "webpack-runtime-ae144cbe776bb68ba02d.js"
   },
   {
-    "url": "styles.b3f733954e49ae8ba708.css"
+    "url": "styles.123c041a8aa64428c0d2.css"
   },
   {
     "url": "styles-407fe62976dc5310c43e.js"
@@ -42,11 +42,11 @@ self.__precacheManifest = [
     "url": "532a2f07-e630f83d8667adfa303d.js"
   },
   {
-    "url": "app-e9b2b0e6f08a61c55729.js"
+    "url": "app-ec87d7a65d754802a9a7.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "d9baa61824f3c4bb113aa495915e29f9"
+    "revision": "137f4b96cce0520df44f6ead1bd0e88a"
   },
   {
     "url": "static/webfonts/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxK.woff2"
@@ -76,6 +76,14 @@ self.__precacheManifest = [
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-77466cc0b3ed4dac08eb.js"
   },
   {
+    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
+    "revision": "f6081b83111aea4128c98944b7fafccc"
+  },
+  {
+    "url": "page-data/app-data.json",
+    "revision": "c4b07c9bb9e85d1a43601768114f029f"
+  },
+  {
     "url": "polyfill-8cbde93a4ff780c2bc35.js"
   },
   {
@@ -84,7 +92,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "fe5e4d385c82455920766442081ca26d"
+    "revision": "c486462c29138699b92d8a781d35c07d"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -171,12 +179,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^`), ``)
+  pathname = pathname.replace(new RegExp(`^/mividaencodigo`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-e9b2b0e6f08a61c55729.js`))) {
+  if (!resources || !(await caches.match(`/mividaencodigo/app-ec87d7a65d754802a9a7.js`))) {
     return await fetch(event.request)
   }
 
@@ -189,7 +197,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/mividaencodigo/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
