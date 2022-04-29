@@ -87,7 +87,7 @@
     "node-fetch": "^2.6.1",
     "node-sass": "^4.13.1",
     "normalize-scss": "^7.0.1",
-    "prismjs": "^1.21.0",
+    "prismjs": "^1.27.0",
     "react": "^17.0.1",
     "react-disqus-comments": "^1.4.0",
     "react-dom": "^16.13.0",
